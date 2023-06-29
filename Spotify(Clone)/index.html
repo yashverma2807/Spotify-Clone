@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Listening is Everything</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.png" alt="Spotify">Spotify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Music Container -->
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>
+                Best of Some Soothing Songs - 😉
+            </h1>
+            <div class="songItemContainer">
+                <div class="song-item">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timeStamp">3:26 <i id="0"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="ex.jpg" alt="2" width="10" height="45">
+                    <span class="songName">Excuses</span>
+                    <span class="songListPlay"><span class="timeStamp">2:56 <i id="1"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="dilj.jpg" alt="3" width="10" height="45">
+                    <span class="songName">Raat Di Gedi</span>
+                    <span class="songListPlay"><span class="timeStamp">3:18 <i id="2"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="atif.jpg" alt="4" width="10" height="45">
+                    <span class="songName">Chale Toh Kat Hi Jayega</span>
+                    <span class="songListPlay"><span class="timeStamp">3:30 <i id="3"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="hardy.jpg" alt="5">
+                    <span class="songName">Yaar Ni Mileya</span>
+                    <span class="songListPlay"><span class="timeStamp">5:10 <i id="4"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="bg2.jpg" alt="6">
+                    <span class="songName">Do Ghut Pila De</span>
+                    <span class="songListPlay"><span class="timeStamp">6:00 <i id="5"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="care.jpg" alt="7" width="10" height="45">
+                    <span class="songName">Care Ni Karda</span>
+                    <span class="songListPlay"><span class="timeStamp">3:13 <i id="6"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="song-item">
+                    <img src="dil.jpg" alt="8" width="10" height="45">
+                    <span class="songName">Dil Chahte Ho</span>
+                    <span class="songListPlay"><span class="timeStamp">4:12 <i id="7"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+
+    <!-- Track Bar -->
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Font Awesome Icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>&nbsp;
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>&nbsp;
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="track2.gif" width="50" alt="" id="gif"><span id="masteSongName">Let Me Love You - Justin Beiber</span> 
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4a309a8b6f.js" crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

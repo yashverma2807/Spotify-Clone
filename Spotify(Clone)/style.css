@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body{
+    background-color: rgb(47, 173, 78);
+}
+
+nav{
+    font-family: 'Baloo Bhai 2', cursive;
+    position:static;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+nav ul li{
+    padding: 0 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    font-weight:bolder;
+}
+
+.brand img{
+    width: 45px;
+    padding: 0 7px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.container{
+    min-height: 76vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url(backg.gif);
+    /* background-repeat: no-repeat; */
+}
+
+.bottom{
+    height: 120px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 24px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+
+.song-item{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.song-item img{
+    width: 55px;
+    margin: 0 20px;
+    border-radius: 100px;
+}
+
+.timeStamp{
+    margin: 0 15px;
+}
+
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.songInfo{
+    display: flex;
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
